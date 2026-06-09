@@ -1,0 +1,108 @@
+:root {
+    --dark: #191918
+}
+p {
+    color: red;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "DM Suns", sans-serif;
+}
+.header {
+    padding-block: 30px;
+
+}
+.header__container, .hero_container {
+    max-width: 1069px ;
+    margin-inline: auto;
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 49px;
+    align-items: center;
+}
+.a {
+    text-decoration: none;
+}
+.header_list_link {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.47px;
+    color: var(--dark);
+    text-decoration: none;
+}
+.header_list_link.active {
+    border-bottom: 2px solid var(--dark);
+    padding-bottom: 5px;
+}
+.header_button {
+    background: green;
+    color: white;
+    padding: 19px 59px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.header_button:hover, .hero_button:hover {
+    opacity: 80%;
+}
+.hero {
+    padding-block: 70px 
+}
+.hero_container {
+    position: relative;
+}
+.hero_image {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.hero_title {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -2.5px;
+    color: var(--dark);
+    line-height: 50px;
+    font-family: "DM Suns", sans-serif;
+}
+.hero_desc {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+}   
+.hero_button {
+    background: green;
+    color: white;
+    padding: 19px 59px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.hero_content {
+    max-width: 500px;
+    padding-block: 50px;
+}
+.header_logo_bmw {
+    width: 50px;   
+    height: 50px;
+}
